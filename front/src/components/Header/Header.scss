@@ -1,0 +1,65 @@
+.main-navbar {
+    background: #fff;
+    color:black;
+
+    .main-navbar_collapse {
+
+        .main-navbar_collapse-first {
+
+            .nav-item {
+               
+
+                .nav-link {
+                    font-size:0.8rem;
+                    color:#000;
+
+                    &:hover {
+                        color:#34d264;
+                    }
+
+                }
+
+
+            }
+
+        }
+
+        .main-navbar_collapse-second {
+
+            .nav-item {
+               
+
+                .nav-link {
+                    color:#000;
+
+                    &:hover {
+                        color:#34d264;
+                    }
+                   
+                }
+
+
+                .dropdown-menu{
+
+                    .dropdown-item{
+                        
+                        &:hover {
+                            color:#34d264;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+
+    .navbar-brand {
+        height: 70px;
+        width:70px;
+        background: url('/img/eWorld-logo.png') center no-repeat;
+        background-size: cover;
+        
+    }
+
+
+}

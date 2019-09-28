@@ -1,0 +1,18 @@
+.container{
+  //margin: 0 ;
+
+  &__headline, &__card-title{
+    font-size: 1.3rem;
+  }
+
+  &__column{
+    max-width: 20rem;
+  }
+
+  &__card{
+    flex-direction: column;
+    overflow: visible;
+  }
+
+}
+
